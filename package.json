@@ -1,0 +1,29 @@
+{
+  "name": "mysql-client",
+  "version": "1.0.0",
+  "description": "Promise based typescript client for connecting to mysql",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json lib/**/*.ts"
+  },
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENCE",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "author": "PGOWAR",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mysql": "^2.15.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "@types/mysql": "^2.15.5"
+  }
+}
